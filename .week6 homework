@@ -1,0 +1,203 @@
+<html>
+<head>
+<style>
+
+
+body{
+
+background-color:gray;
+ font-family: tahoma;
+background-image: url("images/bg.jpg");
+background-attachment: fixed;
+background-size: cover;
+width: 80%;
+margin: 0 auto;
+padding: 0;
+            }
+			
+			
+header{
+
+margin-bottom:20px;
+margin-top:20px;
+padding:0;
+}
+
+#share-button{
+float:right;
+}
+
+.t{
+padding-right:10px;
+display:inline-block;
+}
+
+header a{
+margin-bottom:5px;
+color:white;
+}
+
+#hello{
+margin-top:10px;
+padding-top:10px;
+background-color:rgb(69, 69, 69);
+clear:both;}
+
+#topboy{
+vertical-align:middle;
+margin-left:100px;
+}
+#welcome{
+vertical-align:middle;
+color:white;
+margin-left:50px;
+display:inline-block;
+padding:0;
+}
+
+h2,h3{
+font-size=30pt;
+}
+nav ul{
+background-color:rgb(2, 134, 165);
+width:100%;
+padding:0;
+margin:0;
+}
+nav li a{
+padding:15px;
+color:white;
+font-weight:bold;
+}
+nav li a:hover{
+color:orange;
+font-weight:bold;
+padding:15px;
+}
+nav li{
+display:inline-block;
+padding: 15px 0 15px 000 ;
+}
+
+
+#content{
+
+background-color:white;
+padding:30px;
+}
+#aboutcontent{
+width:80%;
+float:right;
+line-height: 30px;
+}
+#about{
+position:relative;
+margin-bottom:10px;
+}
+#recentwork img{
+}
+
+#recentwork h1{
+border-bottom:1px solid gray;
+width:120px
+}
+footer{
+ background-color: rgb(21, 21, 21);
+ margin-bottom: 20px;
+ color: gray;
+ }
+ 
+ .foot{
+ display:inline-block;
+ width:45%;
+ padding:20px;
+ 
+ }
+</style>
+</head>
+
+<body>
+
+<header>
+<div id="logo">
+<img  src="logo.png"/>
+</div>
+
+<div id="share-button" >
+<div class="t">
+<img src="twtter.png">
+<a href="http:www.twitter.com"> twitter</a>
+</div>
+<div class="t">
+<img src="rss.png">
+<a href="http:www.rss.com"> rss</a>
+</div>
+<div class="t">
+<img src="face.png">
+<a href="http:www.facebook.com"> facebook</a>
+</div>
+</div>
+
+</header>
+
+<section id="hello">
+<img id="topboy" src="boy.png"/>
+<section id="welcome">
+<h1>hi !</h1>
+<h1> i am a designer</h1>
+<h4> can you add your own content here</h4>
+</section>
+</section>
+
+
+<nav>
+<ul>
+<li><a href=#>home</a></li>
+<li><a href=#>profile</a></li>
+<li><a href=#>about</a></li>
+<li><a href=#>contaqct us</a></li>
+</ul>
+</nav>
+
+<section id="content">
+<section id="about">
+<img src="hiboy.jpg"/>
+<section id="aboutcontent">
+<h1>about</h1>
+<p>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+It has survived not only five centuries, but also the leap into electronic typesetting
+</p>
+</section>
+</section>
+<section id="recentwork">
+<h1><a href= "#">recent work</a></h1>
+<img src="1.jpg"/>
+<img src="2.jpg"/>
+<img src="3.jpg"/>
+<img src="4.jpg"/>
+<img src="5.jpg"/>
+<img src="6.jpg"/>
+<img src="7.jpg"/>
+<img src="8.jpg"/>
+<img src="9.jpg"/>
+<img src="10.jpg"/>
+
+
+</section>
+</section>
+<footer>
+<div class="foot">
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+ </div>
+ <div class="foot">
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+ </div>
+</footer>
+
+</body>
+</html>
